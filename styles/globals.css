@@ -10,6 +10,30 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+
+  .custom-cursor {
+    position: fixed;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: white;
+    mix-blend-mode: difference;
+    pointer-events: none;
+    z-index: 9999;
+    transform: translate(-50%, -50%);
+  }
+
+  .cursor-click {
+    transform: translate(-50%, -50%) scale(0.8);
+  }
+
+    * {
+    cursor: none !important;
+  }
+
+  a, button, [role="button"], input, textarea, select {
+    cursor: none !important;
+  }
 }
 
 @layer base {
