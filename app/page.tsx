@@ -114,18 +114,73 @@ export default function Home() {
     }
   ]
 
+//   SEDS VIT
+// VIT Vellore
+// 120 Members
+// 8 Active Projects
+// SEDS CUSAT
+// SEDS CUSAT
+// CUSAT
+// 95 Members
+// 6 Active Projects
+// SEDS Celestia
+// SEDS Celestia
+// BITS Goa
+// 85 Members
+// 5 Active Projects
+// SEDS Antariksh
+// SEDS Antariksh
+// VIT Chennai
+// 85 Members
+// 5 Active Projects
+// SEDS Celestia Explora
+// SEDS Celestia Explora
+// Shiv Nadar University
+// 85 Members
+// 5 Active Projects
+// SEDS REC
+// SEDS REC
+// REC
+// 85 Members
+// 5 Active Projects
+// SEDS Nebula
+// SEDS Nebula
+// VIT Bhopal
+// 85 Members
+// 5 Active Projects
+// SEDS AGI
+// SEDS AGI
+// AGI
+// 85 Members
+// 5 Active Projects
+// SEDS Aurora
+// SEDS Aurora
+// VIT AP
+// 85 Members
+// 5 Active Projects
+// SEDS BPHC
+// SEDS BPHC
+// BITS Hyderabad
+// 85 Members
+// 5 Active Projects
+// SEDS KCT
+// SEDS KCT
+// KCT
+// 85 Members
+// 5 Active Projects
+
   const chapters = [
     { name: "SEDS VIT", university: "VIT Vellore", members: 120, projects: 8 },
     { name: "SEDS Antariksh", university: "VIT Chennai", members: 85, projects: 5 },
     { name: "SEDS CUSAT", university: "CUSAT", members: 95, projects: 3 },
     { name: "SEDS Celestia", university: "BITS Goa", members: 75, projects: 5 },
-    { name: "SEDS Celestia Explora", university: "BITS Goa", members: 85, projects: 5 },
-    { name: "SEDS REC", university: "BITS Goa", members: 67, projects: 3 },
-    { name: "SEDS Nebula", university: "BITS Goa", members: 85, projects: 1 },
-    { name: "SEDS AGI", university: "BITS Goa", members: 79, projects: 2 },
-    { name: "SEDS Aurora", university: "BITS Goa", members: 91, projects: 4 },
-    { name: "SEDS BPHC", university: "BITS Goa", members: 72, projects: 5 },
-    { name: "SEDS KCT", university: "BITS Goa", members: 85, projects: 2 },  
+    { name: "SEDS Celestia Explora", university: "Shiv Nadar University", members: 85, projects: 5 },
+    { name: "SEDS REC", university: "REC", members: 67, projects: 3 },
+    { name: "SEDS Nebula", university: "VIT Bhopal", members: 85, projects: 1 },
+    { name: "SEDS AGI", university: "AGI", members: 79, projects: 2 },
+    { name: "SEDS Aurora", university: "VIT AP", members: 91, projects: 4 },
+    { name: "SEDS BPHC", university: "BITS Hyderabad", members: 72, projects: 5 },
+    { name: "SEDS KCT", university: "KCT", members: 85, projects: 2 },  
   ]
 
   const projects = [
