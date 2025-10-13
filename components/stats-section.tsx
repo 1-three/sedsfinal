@@ -1,7 +1,7 @@
 export function StatsSection() {
   const stats = [
-    { label: "Projects Completed", value: "120" },
-    { label: "Active Chapters", value: "50" },
+    { label: "Projects Completed", value: "100+" },
+    { label: "Active Chapters", value: "65+" },
     { label: "Global Members", value: "10,000" },
   ]
 
