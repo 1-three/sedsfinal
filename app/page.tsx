@@ -339,21 +339,6 @@ export default function Home() {
             Inspiring the next generation of space explorers through educational programs, events, and community
             engagement.
           </p>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
-            {[
-              { title: "School Visits", desc: "Interactive presentations and workshops for K-12 students" },
-              { title: "Space Workshops", desc: "Hands-on learning experiences with space technology" },
-              { title: "Public Events", desc: "Space-themed events and exhibitions for the community" },
-              { title: "Mentorship", desc: "Connecting students with space industry professionals" },
-            ].map((program, index) => (
-              <div key={index} className="bg-dark-800 p-6 rounded-lg">
-                <h3 className="text-xl font-semibold text-white mb-3">{program.title}</h3>
-                <p className="text-gray-400">{program.desc}</p>
-              </div>
-            ))}
-          </div>
-
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-12">
             {[
               { value: "10K+", label: "Students Reached" },
