@@ -467,10 +467,10 @@ export default function Home() {
 
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-12">
             {[
-              { value: "80+", label: "Universities" },
-              { value: "20+", label: "States" },
-              { value: "5000+", label: "Active Members" },
-              { value: "100+", label: "Projects" },
+              { value: "11+", label: "Universities" },
+              { value: "9+", label: "States" },
+              { value: "4000+", label: "Active Members" },
+              { value: "60+", label: "Projects" },
             ].map((stat, index) => (
               <div key={index} className="text-center">
                 <div className="text-3xl font-bold text-white mb-2">{stat.value}</div>
