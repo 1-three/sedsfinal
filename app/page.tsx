@@ -469,7 +469,7 @@ export default function Home() {
             {[
               { value: "11+", label: "Universities" },
               { value: "9+", label: "States" },
-              { value: "4000+", label: "Active Members" },
+              { value: "500+", label: "Active Members" },
               { value: "60+", label: "Projects" },
             ].map((stat, index) => (
               <div key={index} className="text-center">
