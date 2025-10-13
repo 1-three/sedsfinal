@@ -342,8 +342,8 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-12">
             {[
               { value: "10K+", label: "Students Reached" },
-              { value: "500+", label: "School Visits" },
-              { value: "100+", label: "Workshops Conducted" },
+              { value: "475+", label: "School Visits" },
+              { value: "125+", label: "Workshops Conducted" },
               { value: "50+", label: "Partner Organizations" },
             ].map((stat, index) => (
               <div key={index} className="text-center">
