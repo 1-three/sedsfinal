@@ -28,7 +28,7 @@ export default function Home() {
       name: "Aatreyee",
       graduation: "2027",
       role: "Secretary",
-      image: "images/aatreyee1.jpg",
+      image: "images/aatreyee1.jpeg",
       quote: "Rage, rage against the dying of the light",
       linkedin: "https://www.linkedin.com/in/aatreyee/"
     },
@@ -44,7 +44,7 @@ export default function Home() {
       name: "Aryaman Agrawal",
       graduation: "2027",
       role: "Treasurer",
-      image: "images/arohi.jpg",
+      image: "images/aryaman.jpeg",
       quote: "It's okay to lose your way....just don't lose sight of what you have decided",
       linkedin: "https://www.linkedin.com/in/aryaman2005"
     },
