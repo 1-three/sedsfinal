@@ -13,8 +13,8 @@ export default function Home() {
       graduation: "2027",
       role: "Chairperson",
       image: "images/avichal.jpg",
-      quote: "If you can dream it, you can do it",
-      linkedin: "https://in.linkedin.com/in/nupur-sharma-a24b66274"
+      quote: " ",
+      linkedin: "https://www.linkedin.com/in/avichal-verma-ln/?originalSubdomain=in"
     },
     {
       name: "Vaibhavi Yadav",
@@ -36,9 +36,9 @@ export default function Home() {
       name: "Srinjay Sarkar",
       graduation: "2027",
       role: "Corporate Affairs and Funding Director",
-      image: "images/srinjay.jpg",
-      quote: "You only live once, but if you do it right, once is enough",
-      linkedin: "https://www.linkedin.com/in/krishna-narwade-439ba0258"
+      image: "images/srinjay.jpeg",
+      quote: "Aim for the best and prepare for the worst",
+      linkedin: "https://www.linkedin.com/in/srinjay-sarkar-959504289?utm_source=share_via&utm_content=profile&utm_medium=member_android"
     },
     {
       name: "Aryaman Agrawal",
@@ -49,12 +49,12 @@ export default function Home() {
       linkedin: "https://www.linkedin.com/in/aryaman2005"
     },
     {
-      name: "Teerath",
+      name: "Teerath Agrawal",
       graduation: "2027",
       role: "Executive Director",
-      image: "images/aisha.jpg",
-      quote: "Win small, Win early, Win often",
-      linkedin: "https://www.linkedin.com/in/aishajennath"
+      image: "images/teerath.jpg",
+      quote: " ",
+      linkedin: "https://www.linkedin.com/in/teerathagrawal04/"
     }
     // ,
     // {
