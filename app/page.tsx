@@ -9,109 +9,110 @@ import { Rocket, Target, Heart, Crown, Users, ExternalLink } from "lucide-react"
 export default function Home() {
   const teamMembers = [
     {
-      name: "Nupur Sharma",
-      graduation: "2026",
+      name: "Avichal Verma",
+      graduation: "2027",
       role: "Chairperson",
-      image: "images/nupur.jpg",
+      image: "images/avichal.jpg",
       quote: "If you can dream it you can do it",
       linkedin: "https://in.linkedin.com/in/nupur-sharma-a24b66274"
     },
     {
-      name: "Amod Gawade",
-      graduation: "2026",
+      name: "Vaibhavi Yadav",
+      graduation: "2027",
       role: "Vice-Chair",
-      image: "images/amodh.jpg",
+      image: "images/vaibhavi.jpg",
       quote: "Genius is talent set on fire by courage.",
       linkedin: "https://www.linkedin.com/me?trk=p_mwlite_feed-secondary_nav"
     },
     {
-      name: "Shyam Venkatraman",
+      name: "Aatreyee",
       graduation: "2027",
-      role: "Executive Director",
-      image: "images/shyam.jpg",
-      quote: "The purpose of life is a life of purpose",
+      role: "Secretary",
+      image: "images/aatreyee.jpg",
+      quote: " ",
       linkedin: "https://www.linkedin.com/in/shyam-venkatraman-b9374a21b/"
     },
     {
-      name: "Krishna Narwade",
-      graduation: "2026",
-      role: "Secretary",
-      image: "images/krishna.jpg",
+      name: "Srinjay Sarkar",
+      graduation: "2027",
+      role: "Corporate Affairs and Funding Director",
+      image: "images/srinjay.jpg",
       quote: "You only live once, but if you do it right, once is enough",
       linkedin: "https://www.linkedin.com/in/krishna-narwade-439ba0258"
     },
     {
-      name: "Arohi Soni",
-      graduation: "2026",
+      name: "Aryaman",
+      graduation: "2027",
       role: "Treasurer",
       image: "images/arohi.jpg",
       quote: "Winners are not those who never fail, but those who never quit",
       linkedin: "https://www.linkedin.com/in/arohi-soni-ba9b5125b/"
     },
     {
-      name: "Aisha Jennath",
-      graduation: "2026",
-      role: "Initiative and Outreach Coordinator",
+      name: "Teerath",
+      graduation: "2027",
+      role: "Executive Director",
       image: "images/aisha.jpg",
       quote: "Win small, Win early, Win often",
       linkedin: "https://www.linkedin.com/in/aishajennath"
-    },
-    {
-      name: "Vasundhra Sharma",
-      graduation: "2027",
-      role: "Creative and Design Lead",
-      image: "images/vas.jpg",
-      quote: "There is no greater agony than bearing an untold story inside you.",
-      linkedin: "https://www.linkedin.com/in/vasundhra-s-80b081301?trk=contact-info"
-    },
-    {
-      name: "Sukruta Nadkarni",
-      graduation: "2027",
-      role: "Chapter Affairs and Expansion Manager",
-      image: "images/sukruta.jpg",
-      quote: "Reach for the stars",
-      linkedin: "https://www.linkedin.com/in/sukruta-nadkarni"
-    },
-    {
-      name: "Aatreyee",
-      graduation: "2027",
-      role: "Webmaster",
-      image: "images/aatreyee.jpg",
-      quote: "Rage, rage against the dying of the light",
-      linkedin: "https://www.linkedin.com/in/aatreyee/"
-    },
-    {
-      name: "Nikhil K",
-      graduation: "2027",
-      role: "OneSpace Manager",
-      image: "images/nikhil.jpeg",
-      quote: "Slow and steady wins the race.",
-      linkedin: "https://www.linkedin.com/in/nikhil-k-6b40352b2/"
-    },
-    {
-      name: "Vaibhavi",
-      graduation: "2027",
-      role: "Social Media Manager",
-      image: "images/vaibhavi.jpg",
-      quote: "The people who are crazy enough to think that they can change the world are the ones who do",
-      linkedin: "https://www.linkedin.com/in/vaibhavi-yadav-13169a28b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-    },
-    {
-      name: "Ronak Madkaikar",
-      graduation: "2026",
-      role: "Projects Manager",
-      image: "images/ronak.jpg",
-      quote: "Where curiosity meets innovation, the impossible becomes inevitable.",
-      linkedin: "https://www.linkedin.com/in/ronak-madkaikar-732419285/"
-    },
-    {
-      name: "Shrinidhi G",
-      graduation: "2027",
-      role: "Design and Creatives",
-      image: "images/shrinidhi.jpg",
-      quote: "Dream beyond the cosmos",
-      linkedin: "https://www.linkedin.com/in/shrinidhi-g-64b0532b6?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
     }
+    // ,
+    // {
+    //   name: "Vasundhra Sharma",
+    //   graduation: "2027",
+    //   role: "Creative and Design Lead",
+    //   image: "images/vas.jpg",
+    //   quote: "There is no greater agony than bearing an untold story inside you.",
+    //   linkedin: "https://www.linkedin.com/in/vasundhra-s-80b081301?trk=contact-info"
+    // },
+    // {
+    //   name: "Sukruta Nadkarni",
+    //   graduation: "2027",
+    //   role: "Chapter Affairs and Expansion Manager",
+    //   image: "images/sukruta.jpg",
+    //   quote: "Reach for the stars",
+    //   linkedin: "https://www.linkedin.com/in/sukruta-nadkarni"
+    // },
+    // {
+    //   name: "Aatreyee",
+    //   graduation: "2027",
+    //   role: "Webmaster",
+    //   image: "images/aatreyee.jpg",
+    //   quote: "Rage, rage against the dying of the light",
+    //   linkedin: "https://www.linkedin.com/in/aatreyee/"
+    // },
+    // {
+    //   name: "Nikhil K",
+    //   graduation: "2027",
+    //   role: "OneSpace Manager",
+    //   image: "images/nikhil.jpeg",
+    //   quote: "Slow and steady wins the race.",
+    //   linkedin: "https://www.linkedin.com/in/nikhil-k-6b40352b2/"
+    // },
+    // {
+    //   name: "Vaibhavi",
+    //   graduation: "2027",
+    //   role: "Social Media Manager",
+    //   image: "images/vaibhavi.jpg",
+    //   quote: "The people who are crazy enough to think that they can change the world are the ones who do",
+    //   linkedin: "https://www.linkedin.com/in/vaibhavi-yadav-13169a28b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+    // },
+    // {
+    //   name: "Ronak Madkaikar",
+    //   graduation: "2026",
+    //   role: "Projects Manager",
+    //   image: "images/ronak.jpg",
+    //   quote: "Where curiosity meets innovation, the impossible becomes inevitable.",
+    //   linkedin: "https://www.linkedin.com/in/ronak-madkaikar-732419285/"
+    // },
+    // {
+    //   name: "Shrinidhi G",
+    //   graduation: "2027",
+    //   role: "Design and Creatives",
+    //   image: "images/shrinidhi.jpg",
+    //   quote: "Dream beyond the cosmos",
+    //   linkedin: "https://www.linkedin.com/in/shrinidhi-g-64b0532b6?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+    // }
   ]
 
 //   SEDS VIT
