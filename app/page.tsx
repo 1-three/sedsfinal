@@ -13,7 +13,7 @@ export default function Home() {
       graduation: "2027",
       role: "Chairperson",
       image: "images/avichal.jpg",
-      quote: "If you can dream it you can do it",
+      quote: "If you can dream it, you can do it",
       linkedin: "https://in.linkedin.com/in/nupur-sharma-a24b66274"
     },
     {
@@ -41,12 +41,12 @@ export default function Home() {
       linkedin: "https://www.linkedin.com/in/krishna-narwade-439ba0258"
     },
     {
-      name: "Aryaman",
+      name: "Aryaman Agrawal",
       graduation: "2027",
       role: "Treasurer",
       image: "images/arohi.jpg",
-      quote: "Winners are not those who never fail, but those who never quit",
-      linkedin: "https://www.linkedin.com/in/arohi-soni-ba9b5125b/"
+      quote: "It's okay to lose your way....just don't lose sight of what you have decided",
+      linkedin: "https://www.linkedin.com/in/aryaman2005"
     },
     {
       name: "Teerath",
@@ -429,7 +429,7 @@ export default function Home() {
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold text-center text-white mb-4">Team 2025</h2>
           <p className="text-lg text-gray-300 text-center mb-12">Meet the people behind the scenes.</p>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">            
             {teamMembers.map((member, index) => (
               <TeamMemberCard key={index} {...member} />
             ))}
