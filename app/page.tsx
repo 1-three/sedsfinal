@@ -28,7 +28,7 @@ export default function Home() {
       name: "Aatreyee",
       graduation: "2027",
       role: "Secretary",
-      image: "images/aatreyee1.jpeg",
+      image: "images/aatreyee2.jpeg",
       quote: "Rage, rage against the dying of the light",
       linkedin: "https://www.linkedin.com/in/aatreyee/"
     },
