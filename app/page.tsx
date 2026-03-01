@@ -21,16 +21,16 @@ export default function Home() {
       graduation: "2027",
       role: "Vice-Chair",
       image: "images/vaibhavi.jpg",
-      quote: "Genius is talent set on fire by courage.",
-      linkedin: "https://www.linkedin.com/me?trk=p_mwlite_feed-secondary_nav"
+      quote: "The people who are crazy enough to think that they can change the world are the ones who do",
+      linkedin: "https://www.linkedin.com/in/vaibhavi-yadav-13169a28b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
     },
     {
       name: "Aatreyee",
       graduation: "2027",
       role: "Secretary",
-      image: "images/aatreyee.jpg",
-      quote: " ",
-      linkedin: "https://www.linkedin.com/in/shyam-venkatraman-b9374a21b/"
+      image: "images/aatreyee1.jpg",
+      quote: "Rage, rage against the dying of the light",
+      linkedin: "https://www.linkedin.com/in/aatreyee/"
     },
     {
       name: "Srinjay Sarkar",
