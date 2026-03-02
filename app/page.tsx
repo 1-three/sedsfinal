@@ -12,8 +12,8 @@ export default function Home() {
       name: "Avichal Verma",
       graduation: "2027",
       role: "Chairperson",
-      image: "images/avichal.jpg",
-      quote: " ",
+      image: "images/avichal.jpeg",
+      quote: "Beyond the sky, lies our pursuit",
       linkedin: "https://www.linkedin.com/in/avichal-verma-ln/?originalSubdomain=in"
     },
     {
