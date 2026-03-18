@@ -53,7 +53,7 @@ export default function Home() {
       graduation: "2027",
       role: "Executive Director",
       image: "images/teerath.jpg",
-      quote: " ",
+      quote: "Persistence, patience, and passion are all it takes",
       linkedin: "https://www.linkedin.com/in/teerathagrawal04/"
     }
     // ,
